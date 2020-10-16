@@ -1917,7 +1917,7 @@ footer {
   width: 26%;
   min-height: 496px;
   margin: 2px 0 0 0;
-  padding: auto 0 auto 79px;
+  padding: 0;
   background-color: #2d2d2d;
 }
 
