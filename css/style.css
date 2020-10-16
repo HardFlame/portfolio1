@@ -1651,7 +1651,7 @@ footer {
   letter-spacing: 0.9px;
 }
 
-.page-more-meet-bottom-r__li a {
+.page-more-meet-bottom-r__li a:link {
   color: #000000;
 }
 
