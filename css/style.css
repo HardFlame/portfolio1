@@ -1651,6 +1651,10 @@ footer {
   letter-spacing: 0.9px;
 }
 
+.page-more-meet-bottom-r__li a {
+  color: #000000;
+}
+
 .page-more-meet-bottom-r__li a:visited {
   color: #000000;
 }
