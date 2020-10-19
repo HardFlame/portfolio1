@@ -1002,7 +1002,7 @@ body.ie ._ibg img {
 }
 
 .menu__label {
-  z-index: 5;
+  z-index: 10;
   position: fixed;
   right: 0px;
   width: 50px;
@@ -1083,6 +1083,7 @@ input.menu__input:checked ~ div.menu__content {
   display: flex;
   width: 100vw;
   height: 60vh;
+  overflow: hidden;
 }
 
 input.menu__input:checked ~ div.menu__content::before {
@@ -1090,7 +1091,7 @@ input.menu__input:checked ~ div.menu__content::before {
 }
 
 .menu__content {
-  z-index: 2;
+  z-index: 8;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1114,7 +1115,7 @@ input.menu__input:checked ~ div.menu__content::before {
 }
 
 .header-content-menu__link {
-  z-index: 4;
+  z-index: 9;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2405,7 +2406,7 @@ img {
   }
 
   input.menu__input:checked ~ div.menu__content::before {
-    z-index: 1;
+    z-index: 9;
     content: '';
     display: block;
     position: fixed;
@@ -2413,6 +2414,7 @@ img {
     background: #313030;
     width: 100vw;
     height: 200vw;
+    overflow: hidden;
   }
 
   .menu__content {
